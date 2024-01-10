@@ -1,7 +1,7 @@
 import { RecordWithPlaintext } from '@puzzlehq/sdk';
 import { Answer } from './RecordTypes/wheres_alex_vxxx';
 
-export const GAME_PROGRAM_ID = 'wheres_alex_v018.aleo';
+export const GAME_PROGRAM_ID = 'whos_dan_v003.aleo';
 
 export const GAME_FUNCTIONS = {
   propose_game: 'propose_game',
@@ -13,11 +13,11 @@ export const GAME_FUNCTIONS = {
 
 /// todo - update these
 export const transitionFees = {
-  propose_game: 0.01608,
-  accept_game: 0.02901,
-  submit_wager: 0.0086,
-  reveal_answer: 0.009,
-  finish_game: 0.0065,
+  propose_game: 1.01608,
+  accept_game: 1.02901,
+  submit_wager: 1.0086,
+  reveal_answer: 1.009,
+  finish_game: 1.0065,
 };
 
 export type LoadingStatus = 'idle' | 'loading' | 'success' | 'error';

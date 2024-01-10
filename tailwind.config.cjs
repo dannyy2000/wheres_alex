@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
@@ -12,7 +11,7 @@ module.exports = {
         'primary-blue': '#45B1ED',
         'primary-red': '#F63B3B',
         'primary-gray': '#868686',
-        'primary-transparent': 'rgba(0,0,0,0)'
+        'primary-transparent': 'rgba(0,0,0,0)',
       },
     },
   },

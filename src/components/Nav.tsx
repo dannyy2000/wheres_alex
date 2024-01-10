@@ -18,7 +18,7 @@ function Nav({ step, isChallenger = true }: NavProps) {
           step == 2 ? 'text-primary-white' : 'text-primary-gray'
         } ${step > 2 ? 'line-through' : ''}`}
       >
-        {isChallenger ? '2. HIDE ALEX' : '2. FIND ALEX'}
+        {isChallenger ? '2. HIDE DAN' : '2. FIND DAN'}
       </p>
       <p
         className={`self-stretch font-extrabold tracking-tight  ${

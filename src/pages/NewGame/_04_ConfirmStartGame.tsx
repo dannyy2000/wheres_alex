@@ -176,7 +176,7 @@ function ConfirmStartGame() {
         <div className='flex flex-col gap-2'>
           <SelectedAlexLocation answer={answer as Answer} win={undefined} />
           <div className='self-center whitespace-nowrap text-center text-sm font-extrabold tracking-tight text-primary-green'>
-            You chose to hide Alex {answer}!
+            You chose to hide Dan {answer}!
           </div>
         </div>
       )}

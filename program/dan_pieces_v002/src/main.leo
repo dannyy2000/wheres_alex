@@ -1,7 +1,7 @@
-// The 'puzzle_pieces_v016' program.
+// The 'dan_pieces_v002' program.
 // Without nested imports -- puzzle pieces is going to need Piece Keepers to enforce
 
-program puzzle_pieces_v016.aleo {
+program dan_pieces_v002.aleo {
     mapping supply: field => u64;
 
     struct Message {

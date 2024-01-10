@@ -18,7 +18,7 @@ function HideAlex() {
       <div className='flex h-full w-full flex-col items-center gap-2 px-5'>
         <Nav step={2} />
         <PageHeader
-          text='WHERE WOULD YOU LIKE TO HIDE ALEX?'
+          text='WHERE WOULD YOU LIKE TO HIDE DAN?'
           bg='bg-primary-blue'
         />
         <ChooseAlexLocation

@@ -1,3 +1,4 @@
+/* Add this to your global stylesheet or component stylesheet */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,14 +8,12 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  background-color: #1861aa !important;
 }
 
 body {
@@ -83,4 +82,69 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+
+/* Add this to your global stylesheet or component stylesheet */
+.button {
+  /* Your existing button styles */
+
+  /* Transition for a smoother effect */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  /* Adjust the styles for the hover state */
+  background-color: /* Your hover color */;
+  transform: scale(1.05); /* Increase size on hover */
+}
+
+.button:active {
+  /* Adjust the styles for the active state (when clicked) */
+  transform: scale(0.95); /* Reduce size on click */
+}
+
+.button.disabled {
+  /* Styles for the disabled state */
+  opacity: 0.5; /* Adjust opacity for the disabled state */
+  cursor: not-allowed; /* Change cursor for the disabled state */
+}
+
+/* Add this to your global stylesheet or component stylesheet */
+.title-hover {
+  /* Transition for a smoother effect */
+  transition: color 0.3s ease, transform 0.5s ease;
+
+  /* Animation for movement */
+  animation: moveLetters 1.5s infinite alternate ease-in-out;
+}
+
+.title-hover:hover {
+  /* Adjust the styles for the hover state */
+  color: #FFAED5; /* Light pink color on hover */
+  transform: scale(1.05); /* Increase size on hover */
+}
+
+/* Define the animation keyframes */
+@keyframes moveLetters {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Add this to your global stylesheet or component stylesheet */
+.description-hover {
+  /* Transition for a smoother effect */
+  transition: color 0.3s ease, transform 0.5s ease;
+
+  /* Animation for movement */
+  animation: moveLetters 1.5s infinite alternate ease-in-out;
+}
+
+.description-hover:hover {
+  /* Adjust the styles for the hover state */
+  color: /* Your hover color */; /* Choose the desired hover color */
+  transform: translateY(-2px); /* Increase size on hover */
 }

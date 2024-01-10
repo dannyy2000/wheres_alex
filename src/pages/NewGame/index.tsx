@@ -53,7 +53,7 @@ const NewGame = () => {
   return (
     <div className='flex h-full w-full flex-col'>
       {step === Step._01_NewGame && <NewGamePage />}
-      {step === Step._02_HideAlex && <HideAlex />}
+      {step === Step._02_HideDan && <HideAlex />}
       {step === Step._03_StartWager && <StartWager />}
       {step === Step._04_ConfirmStartGame && <ConfirmStartGame />}
       {step === Step._05_GameStarted && <GameStarted done={done} />}
